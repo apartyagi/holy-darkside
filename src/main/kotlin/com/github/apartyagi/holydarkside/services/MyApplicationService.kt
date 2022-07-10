@@ -1,6 +1,6 @@
-package org.jetbrains.plugins.template.services
+package com.github.apartyagi.holydarkside.services
 
-import org.jetbrains.plugins.template.MyBundle
+import com.github.apartyagi.holydarkside.MyBundle
 
 class MyApplicationService {
 
