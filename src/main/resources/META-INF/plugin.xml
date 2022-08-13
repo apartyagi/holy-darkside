@@ -7,12 +7,6 @@
     <depends>com.intellij.modules.platform</depends>
 
     <extensions defaultExtensionNs="com.intellij">
-        <applicationService serviceImplementation="com.github.apartyagi.holydarkside.services.MyApplicationService"/>
-        <projectService serviceImplementation="com.github.apartyagi.holydarkside.services.MyProjectService"/>
+        <themeProvider id="com.github.apartyagi.holydarkside" path="theme/HolyDark.json"/>
     </extensions>
-
-    <applicationListeners>
-        <listener class="com.github.apartyagi.holydarkside.listeners.MyProjectManagerListener"
-                  topic="com.intellij.openapi.project.ProjectManagerListener"/>
-    </applicationListeners>
 </idea-plugin>
